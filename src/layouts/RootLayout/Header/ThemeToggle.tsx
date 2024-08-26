@@ -6,15 +6,20 @@ import useScheme from "src/hooks/useScheme"
 type Props = {}
 
 const ThemeToggle: React.FC<Props> = () => {
-  const [scheme, setScheme] = useScheme()
+  const [scheme, setScheme] = useScheme();
+
+  // Certifique-se de que o esquema inicial é "light"
+  React.useEffect(() => {
+    setScheme("light");
+  }, [setScheme]);
 
   const handleClick = () => {
-    setScheme(scheme === "light" ? "dark" : "light")
+    setScheme("light"); // Sempre define para "light"
   }
 
   return (
     <StyledWrapper onClick={handleClick}>
-      <Emoji>{scheme === "light" ? "☀️" : "🌙"}</Emoji>
+      <Emoji>☀️</Emoji> {/* Ícone fixo para o tema claro */}
     </StyledWrapper>
   )
 }
