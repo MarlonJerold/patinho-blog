@@ -70,7 +70,7 @@ const StyledWrapper = styled(Link)`
     transition-property: box-shadow;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms;
-
+    border-bottom: 1px solid #000;
     @media (min-width: 768px) {
       margin-bottom: 2rem;
     }
