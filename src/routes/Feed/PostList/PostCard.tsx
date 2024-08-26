@@ -67,8 +67,6 @@ const StyledWrapper = styled(Link)`
     position: relative;
     margin-bottom: 1.5rem;
     border-radius: 0;
-    background-color: ${({ theme }) =>
-      theme.scheme === "light" ? "white" : theme.colors.gray10};
     transition-property: box-shadow;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms;
