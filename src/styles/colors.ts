@@ -22,7 +22,6 @@ export const colors = {
     ...green,
   },
   dark: {
-    ...indigoDark,
     ...grayDark,
     ...blueDark,
     ...redDark,
