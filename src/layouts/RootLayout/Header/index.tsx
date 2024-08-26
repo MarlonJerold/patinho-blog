@@ -29,8 +29,6 @@ const StyledWrapper = styled.div`
   position: sticky;
   top: 0;
   background-color: ${({ theme }) => theme.colors.gray2};
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-
   .container {
     display: flex;
     padding-left: 1rem;
