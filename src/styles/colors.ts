@@ -23,6 +23,7 @@ export const colors = {
   },
   dark: {
     ...grayDark,
+    ...grayDark,
     ...blueDark,
     ...redDark,
     ...greenDark,
