@@ -50,13 +50,12 @@ const StyledWrapper = styled.div`
     > .wrapper {
       display: flex;
       gap: 0.5rem;
-      align-items: center;
+      align-items: left;
       > .wrapper {
         height: fit-content;
         > .top {
           font-size: 1.25rem;
           line-height: 1.75rem;
-          font-style: italic;
           font-weight: 700;
         }
         > .mid {
