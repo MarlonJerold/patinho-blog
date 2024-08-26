@@ -3,7 +3,7 @@ const CONFIG = {
   
   profile: {
     name: "Pato",
-    image: "", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/duckmaldito.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Programador",
     bio: "Um vislumbre do que passa pela mente de um Pato que escreve códigos",
     email: "jeroldmarlon5@gmail.com",
