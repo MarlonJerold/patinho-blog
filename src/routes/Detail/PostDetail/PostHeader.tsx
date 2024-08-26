@@ -90,7 +90,6 @@ const StyledWrapper = styled.div`
         margin-bottom: 0.25rem;
         align-self: stretch;
         width: 1px;
-        background-color: ${({ theme }) => theme.colors.gray10};
       }
       .date {
         margin-right: 0.5rem;
