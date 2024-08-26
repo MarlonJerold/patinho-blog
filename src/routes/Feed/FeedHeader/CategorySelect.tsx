@@ -64,7 +64,7 @@ const StyledWrapper = styled.div`
     position: absolute;
     z-index: 40;
     padding: 0.25rem;
-    border-radius: 0.75rem;
+    border-radius: 0;
     background-color: ${({ theme }) => theme.colors.gray2};
     color: ${({ theme }) => theme.colors.gray10};
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
