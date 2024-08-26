@@ -13,6 +13,15 @@ const ThemeToggle: React.FC<Props> = () => {
     setScheme("light");
   }, [setScheme]);
 
+  const handleClick = () => {
+    setScheme("light"); // Sempre define para "light"
+  }
+
+  return (
+    React.useEffect(() => {
+      setScheme("light");
+    }, [setScheme])
+  )
 }
 
 export default ThemeToggle
