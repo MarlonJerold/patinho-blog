@@ -91,7 +91,7 @@ const StyledWrapper = styled(Link)`
     > .thumbnail {
       position: relative;
       width: 100%;
-      background-color: ${({ theme }) => theme.colors.gray2};
+      background-color: ${({ theme }) => theme.colors.gray4};
       padding-bottom: 66%;
 
       @media (min-width: 1024px) {
