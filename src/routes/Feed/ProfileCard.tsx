@@ -53,7 +53,7 @@ const StyledWrapper = styled.div`
       display: flex;
       padding: 0.5rem;
       flex-direction: column;
-      align-items: center;
+      align-items: left;
       .name {
         font-size: 1.25rem;
         line-height: 1.75rem;
