@@ -13,15 +13,6 @@ const ThemeToggle: React.FC<Props> = () => {
     setScheme("light");
   }, [setScheme]);
 
-  const handleClick = () => {
-    setScheme("light"); // Sempre define para "light"
-  }
-
-  return (
-    <StyledWrapper onClick={handleClick}>
-      <Emoji>☀️</Emoji> {/* Ícone fixo para o tema claro */}
-    </StyledWrapper>
-  )
 }
 
 export default ThemeToggle
