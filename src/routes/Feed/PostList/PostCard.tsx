@@ -66,11 +66,13 @@ const StyledWrapper = styled(Link)`
     overflow: hidden;
     position: relative;
     margin-bottom: 1.5rem;
-    border-radius: 0;
+    border-radius: 1rem;
+    background-color: ${({ theme }) =>
+      theme.scheme === "light" ? "white" : theme.colors.gray4};
     transition-property: box-shadow;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+
     @media (min-width: 768px) {
       margin-bottom: 2rem;
     }
@@ -89,7 +91,7 @@ const StyledWrapper = styled(Link)`
     > .thumbnail {
       position: relative;
       width: 100%;
-      background-color: ${({ theme }) => theme.colors.gray4};
+      background-color: ${({ theme }) => theme.colors.gray2};
       padding-bottom: 66%;
 
       @media (min-width: 1024px) {

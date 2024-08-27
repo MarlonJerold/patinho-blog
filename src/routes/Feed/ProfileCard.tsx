@@ -9,6 +9,9 @@ type Props = {}
 const ProfileCard: React.FC<Props> = () => {
   return (
     <StyledWrapper>
+      <div className="title">
+        <Emoji>💻</Emoji> Profile
+      </div>
       <div className="content">
         <div className="top">
           <Image src={CONFIG.profile.image} fill alt="" />
@@ -32,8 +35,10 @@ const StyledWrapper = styled.div`
   }
   > .content {
     margin-bottom: 2.25rem;
-    border-radius: 0;
+    border-radius: 1rem;
     width: 100%;
+    background-color: ${({ theme }) =>
+      theme.scheme === "light" ? "white" : theme.colors.gray4};
     @media (min-width: 768px) {
       padding: 1rem;
     }
@@ -53,10 +58,11 @@ const StyledWrapper = styled.div`
       display: flex;
       padding: 0.5rem;
       flex-direction: column;
-      align-items: left;
+      align-items: center;
       .name {
         font-size: 1.25rem;
         line-height: 1.75rem;
+        font-style: italic;
         font-weight: 700;
       }
       .role {
