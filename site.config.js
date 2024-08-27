@@ -10,7 +10,6 @@ const CONFIG = {
     email: "jeroldmarlon5@gmail.com",
     linkedin: "marlonjerold",
     github: "marlonjerold",
-    instagram: "",
   },
   projects: [
     {
