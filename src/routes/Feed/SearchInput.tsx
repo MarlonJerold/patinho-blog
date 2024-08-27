@@ -7,10 +7,13 @@ interface Props extends InputHTMLAttributes<HTMLInputElement> {}
 const SearchInput: React.FC<Props> = ({ ...props }) => {
   return (
     <StyledWrapper>
+      <div className="top">
+        <Emoji>🔎</Emoji> Search
+      </div>
       <input
         className="mid"
         type="text"
-        placeholder="Pesquise por palavras chaves..."
+        placeholder="Search Keyword..."
         {...props}
       />
     </StyledWrapper>
@@ -34,7 +37,7 @@ const StyledWrapper = styled.div`
     padding-bottom: 0.5rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-    border-radius: 0;
+    border-radius: 1rem;
     outline-style: none;
     width: 100%;
     background-color: ${({ theme }) => theme.colors.gray4};
