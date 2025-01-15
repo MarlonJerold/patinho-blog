@@ -1,11 +1,10 @@
-
 const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Pato",
     image: "/guts.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Programador",
-    bio: "Apenas mais um blog onde eu despejo o que sei para parecer esperto e garantir meu lugar de destaque no churrasco. Afinal, eu tenho um blog",
+    bio: "Apenas mais um blog onde eu despejo o que sei para parecer esperto e garantir meu lugar de destaque no churrasco. Afinal, eu tenho um blog e aqui é um lugar sério.",
     email: "jeroldmarlon5@gmail.com",
     linkedin: "marlonjerold",
     github: "marlonjerold",
