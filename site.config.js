@@ -17,7 +17,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "O blog de um pato",
+    title: "O blog de um pato pensante",
     description: "pensamentos de um desenvolvedor",
     scheme: "dark", // 'light' | 'dark' | 'system'
   },
