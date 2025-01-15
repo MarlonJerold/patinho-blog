@@ -5,7 +5,7 @@ const CONFIG = {
     name: "Pato",
     image: "/guts.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Programador",
-    bio: "Um vislumbre do que passa pela mente de um Pato que escreve códigos",
+    bio: "Apenas mais um blog onde eu despejo o que sei para parecer esperto e garantir meu lugar de destaque no churrasco. Afinal, eu tenho um blog",
     email: "jeroldmarlon5@gmail.com",
     linkedin: "marlonjerold",
     github: "marlonjerold",
