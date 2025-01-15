@@ -20,7 +20,7 @@ const CONFIG = {
   blog: {
     title: "O blog de um pato",
     description: "pensamentos de um desenvolvedor",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    scheme: "light", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
